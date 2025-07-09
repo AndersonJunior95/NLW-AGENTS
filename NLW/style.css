@@ -1,3 +1,9 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
     background-image: url();
     background-repeat: no-repeat;
@@ -5,4 +11,23 @@ body {
     background-position: top center;
     background-color: #121214;
     color: white;
+}
+
+body *, :root {
+    font-family: "Inter";
+    line-height: 160%;
+}
+
+header {
+    padding-top: 2rem;
+    text-align: center;
+}
+
+header img {
+    width: 15rem;
+}
+
+main {
+    max-width: 36rem;
+    text-align: center;
 }
